@@ -1,0 +1,80 @@
+[
+    {
+        "id": 451623,
+        "fecha": "18-10-2023 22:27:49",
+        "monto": "5000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 50000
+        }
+    },
+    {
+        "id": 451624,
+        "fecha": "18-10-2023 22:28:24",
+        "monto": "5000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 55000
+        }
+    },
+    {
+        "id": 451625,
+        "fecha": "18-10-2023 22:28:52",
+        "monto": "5000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 50000
+        }
+    },
+    {
+        "id": 451626,
+        "fecha": "18-10-2023 22:28:56",
+        "monto": "5000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 45000
+        }
+    },
+    {
+        "id": 451627,
+        "fecha": "18-10-2023 22:30:05",
+        "monto": "5000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 40000
+        }
+    },
+    {
+        "id": 451628,
+        "fecha": "18-10-2023 22:30:34",
+        "monto": "40000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 0
+        }
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "numeroDeCuenta": 925083,
+        "nombre": "John",
+        "apellido": "Marston",
+        "tipoDocumento": "DNI",
+        "nroDocumento": "12689345",
+        "email": "marstonJ3@gmail.com",
+        "tipoDeCuenta": "CC",
+        "moneda": "U$S",
+        "saldo": 3000,
+        "imagen": {
+            "name": "925083CC",
+            "full_path": ".\/ImagenesDeCuentas\/2023\/925083CC.jpg"
+        }
+    },
+    {
+        "numeroDeCuenta": 925084,
+        "nombre": "Lucas",
+        "apellido": "Dure",
+        "tipoDocumento": "DNI",
+        "nroDocumento": "12345678",
+        "email": "Lucasdure380@gmail.com",
+        "tipoDeCuenta": "CC",
+        "moneda": "U$S",
+        "saldo": 14000,
+        "imagen": {
+            "name": "925084CC",
+            "full_path": ".\/ImagenesDeCuentas\/2023\/925084CC.jpg"
+        }
+    },
+    {
+        "numeroDeCuenta": 925085,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "tipoDocumento": "DNI",
+        "nroDocumento": "29578364",
+        "email": "Juancito33@gmail.com",
+        "tipoDeCuenta": "CA",
+        "moneda": "$",
+        "saldo": 1000,
+        "imagen": {
+            "name": "925085CA",
+            "full_path": ".\/ImagenesDeCuentas\/2023\/925085CA.jpg"
+        }
+    },
+    {
+        "numeroDeCuenta": 925086,
+        "nombre": "Roberto",
+        "apellido": "Jimenez",
+        "tipoDocumento": "DNI",
+        "nroDocumento": "26579234",
+        "email": "robertiroK-po@hotmail.com",
+        "tipoDeCuenta": "CC",
+        "moneda": "$",
+        "saldo": 1000,
+        "imagen": {
+            "name": "925086CC",
+            "full_path": ".\/ImagenesDeCuentas\/2023\/925086CC.jpg"
+        }
+    }
+]

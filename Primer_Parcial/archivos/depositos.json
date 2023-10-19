@@ -1,0 +1,121 @@
+[
+    {
+        "id": 519183,
+        "fecha": "18-10-2023 01:41:17",
+        "monto": "2000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 60000
+        },
+        "imagen": {
+            "name": "CC925084_519184",
+            "full_path": ".\/ImagenesDeDepositos2023\/CC925084_519184.jpg"
+        }
+    },
+    {
+        "id": 519185,
+        "fecha": "18-10-2023 01:41:17",
+        "monto": "2000",
+        "cuenta": {
+            "nombre": "John",
+            "apellido": "Marston",
+            "numeroDeCuenta": 925083,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 3000
+        },
+        "imagen": {
+            "name": "CC925083_519185",
+            "full_path": ".\/ImagenesDeDepositos2023\/CC925083_519185.jpg"
+        }
+    },
+    {
+        "id": 519186,
+        "fecha": "18-10-2023 01:41:17",
+        "monto": "1000",
+        "cuenta": {
+            "nombre": "Juan",
+            "apellido": "Perez",
+            "numeroDeCuenta": 925085,
+            "tipoDeCuenta": "CA",
+            "moneda": "$",
+            "saldo": 1000
+        },
+        "imagen": {
+            "name": "CA925085_519186",
+            "full_path": ".\/ImagenesDeDepositos2023\/CA925085_519186.jpg"
+        }
+    },
+    {
+        "id": 519187,
+        "fecha": "18-10-2023 21:24:38",
+        "monto": "10",
+        "cuenta": {
+            "nombre": "Juan",
+            "apellido": "Perez",
+            "numeroDeCuenta": 925085,
+            "tipoDeCuenta": "CA",
+            "moneda": "$",
+            "saldo": 1020
+        },
+        "imagen": {
+            "name": "CA925085_519187",
+            "full_path": ".\/ImagenesDeDepositos2023\/CA925085_519187.jpg"
+        }
+    },
+    {
+        "id": 519188,
+        "fecha": "18-10-2023 22:31:35",
+        "monto": "1000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 1000
+        },
+        "imagen": {
+            "name": "CC925084_519188",
+            "full_path": ".\/ImagenesDeDepositos2023\/CC925084_519188.jpg"
+        }
+    },
+    {
+        "id": 519189,
+        "fecha": "19-10-2023 01:04:15",
+        "monto": "1000",
+        "cuenta": {
+            "nombre": "Lucas",
+            "apellido": "Dure",
+            "numeroDeCuenta": 925084,
+            "tipoDeCuenta": "CC",
+            "moneda": "U$S",
+            "saldo": 14000
+        },
+        "imagen": {
+            "name": "CC925084_519189",
+            "full_path": ".\/ImagenesDeDepositos2023\/CC925084_519189.jpg"
+        }
+    },
+    {
+        "id": 519190,
+        "fecha": "19-10-2023 01:05:28",
+        "monto": "1000",
+        "cuenta": {
+            "nombre": "Roberto",
+            "apellido": "Jimenez",
+            "numeroDeCuenta": 925086,
+            "tipoDeCuenta": "CC",
+            "moneda": "$",
+            "saldo": 1000
+        },
+        "imagen": {
+            "name": "CC925086_519190",
+            "full_path": ".\/ImagenesDeDepositos2023\/CC925086_519190.jpg"
+        }
+    }
+]

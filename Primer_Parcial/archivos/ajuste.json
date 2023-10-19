@@ -1,0 +1,58 @@
+[
+    {
+        "id_ajuste": 547883,
+        "nroDeOperacion": "519186",
+        "operacion": "DEPOSITO",
+        "motivo": "motivo",
+        "monto": "100"
+    },
+    {
+        "id_ajuste": 547884,
+        "nroDeOperacion": "519186",
+        "operacion": "DEPOSITO",
+        "motivo": "motivo",
+        "monto": "-100"
+    },
+    {
+        "id_ajuste": 547885,
+        "nroDeOperacion": "519183",
+        "operacion": "DEPOSITO",
+        "motivo": "Falta de monto",
+        "monto": "1000"
+    },
+    {
+        "id_ajuste": 547886,
+        "nroDeOperacion": "519183",
+        "operacion": "DEPOSITO",
+        "motivo": "Falta de monto",
+        "monto": "1000"
+    },
+    {
+        "id_ajuste": 547887,
+        "nroDeOperacion": "451627",
+        "operacion": "EXTRACCION",
+        "motivo": "cancelacion de retiro",
+        "monto": "5000"
+    },
+    {
+        "id_ajuste": 547888,
+        "nroDeOperacion": "451627",
+        "operacion": "EXTRACCION",
+        "motivo": "cancelacion de retiro",
+        "monto": "5000"
+    },
+    {
+        "id_ajuste": 547889,
+        "nroDeOperacion": "451627",
+        "operacion": "EXTRACCION",
+        "motivo": "falta de monto en retiro",
+        "monto": "-1000"
+    },
+    {
+        "id_ajuste": 547890,
+        "nroDeOperacion": "519183",
+        "operacion": "DEPOSITO",
+        "motivo": "falta de monto en deposito",
+        "monto": "1000"
+    }
+]
