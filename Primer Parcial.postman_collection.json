@@ -1,0 +1,394 @@
+{
+	"info": {
+		"_postman_id": "b26cdf07-8378-4c0d-bfe9-d5f0e63c90e5",
+		"name": "Primer Parcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19245929"
+	},
+	"item": [
+		{
+			"name": "POST - CuentaAlta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "cuentaAlta",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "Roberto",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "Jimenez",
+							"type": "text"
+						},
+						{
+							"key": "tipoDocumento",
+							"value": "dni",
+							"type": "text"
+						},
+						{
+							"key": "nroDocumento",
+							"value": "26579234",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "robertiroK-po@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "tipoDeCuenta",
+							"value": "cc",
+							"type": "text"
+						},
+						{
+							"key": "moneda",
+							"value": "$",
+							"type": "text"
+						},
+						{
+							"key": "saldoInicial",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/Usuario/Downloads/foto3.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer_Parcial/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer_Parcial",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - ConsultarCuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "consultarCuenta",
+							"type": "text"
+						},
+						{
+							"key": "tipoDeCuenta",
+							"value": "cc",
+							"type": "text"
+						},
+						{
+							"key": "nroDeCuenta",
+							"value": "925086",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer_Parcial/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer_Parcial",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - DepositoCuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "deposito",
+							"type": "text"
+						},
+						{
+							"key": "tipoDeCuenta",
+							"value": "cc",
+							"type": "text"
+						},
+						{
+							"key": "nroDeCuenta",
+							"value": "925086",
+							"type": "text"
+						},
+						{
+							"key": "moneda",
+							"value": "$",
+							"type": "text"
+						},
+						{
+							"key": "importe",
+							"value": "1000",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/Usuario/Pictures/Opera Instantánea_2023-09-18_191424_meet.google.com.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer_Parcial/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer_Parcial",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Consultas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Primer_Parcial/?nroDeCuenta=925084&fechaInicio=01-01-2023&fechaFinal=01-01-2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer_Parcial",
+						""
+					],
+					"query": [
+						{
+							"key": "consulta",
+							"value": "c",
+							"disabled": true
+						},
+						{
+							"key": "fecha",
+							"value": "19-10-2023",
+							"disabled": true
+						},
+						{
+							"key": "nroDeCuenta",
+							"value": "925084"
+						},
+						{
+							"key": "fechaInicio",
+							"value": "01-01-2023"
+						},
+						{
+							"key": "fechaFinal",
+							"value": "01-01-2024"
+						},
+						{
+							"key": "tipoDeCuenta",
+							"value": "cc",
+							"disabled": true
+						},
+						{
+							"key": "moneda",
+							"value": "u$s",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - modificarCuenta",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nroDeCuenta",
+							"value": "925084",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "Lucas",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "Dure",
+							"type": "text"
+						},
+						{
+							"key": "tipoDocumento",
+							"value": "dni",
+							"type": "text"
+						},
+						{
+							"key": "nroDocumento",
+							"value": "44546637",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "lucas@example.com",
+							"type": "text"
+						},
+						{
+							"key": "tipoDeCuenta",
+							"value": "cc",
+							"type": "text"
+						},
+						{
+							"key": "moneda",
+							"value": "u$s",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer_Parcial/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer_Parcial",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - RetiroCuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "retiro",
+							"type": "text"
+						},
+						{
+							"key": "tipoDeCuenta",
+							"value": "cc",
+							"type": "text"
+						},
+						{
+							"key": "nroDeCuenta",
+							"value": "925084",
+							"type": "text"
+						},
+						{
+							"key": "moneda",
+							"value": "U$s",
+							"type": "text"
+						},
+						{
+							"key": "importe",
+							"value": "40000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer_Parcial/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer_Parcial",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - AjusteCuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "ajuste",
+							"type": "text"
+						},
+						{
+							"key": "nroDeOperacion",
+							"value": "519183",
+							"type": "text"
+						},
+						{
+							"key": "motivo",
+							"value": "falta de monto en deposito",
+							"type": "text"
+						},
+						{
+							"key": "monto",
+							"value": "1000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer_Parcial/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer_Parcial",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
